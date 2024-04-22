@@ -1,0 +1,47 @@
+body{
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+}
+.renseignement-form h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.renseignement-form{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 4.5rem;
+    border-radius: 5px;
+}
+
+.renseignement-form form{
+    position: relative;
+    border-radius: 5px;
+}
+
+.renseignement-form form input, form textarea{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.renseignement-form textarea{
+    resize: none;
+    height: 250px;
+}
+
+.renseignement-form  form.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    letter-spacing: uppercase;
+    font-weight: 600;
+    border:2px solid transparent;
+    border-radius: 51px;
+}
+
