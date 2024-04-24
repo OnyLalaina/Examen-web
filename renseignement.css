@@ -1,47 +1,126 @@
-body{
-    padding: 50px;
-    margin: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body, html{
+    height: 100%;
+}
+
+.contact-form{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.h-primary{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 4.05rem;
+    padding: 1px;
+    padding-bottom: 25px;
+}
+
+h-secondary{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 2.3rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: goldenrod;
+    color: white;
+    margin: 17px;
+    font-size: 1.6rem;
+    border-radius: 90px;
+    cursor: pointer;
+    font-family: 'Arial', 'sans-serif';
+}
+
+.btn:hover{
+color: #fff;
+}
+
+.btn ul li a:hover{
+    color: goldenrod;
+    background-color: #fff;
+}
+
+.center{
     text-align: center;
 }
-.renseignement-form h1{
+
+.section{
+    padding: 40px 15px;
+}
+
+.contact{
+    background: black;
+    height: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form h1{
     font-size: 80px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
-.renseignement-form{
-    letter-spacing: 1px;
-    line-height: 20px;
-    font-size: 1.1rem;
-    margin-bottom: 4.5rem;
-    border-radius: 5px;
+.span{
+    color:goldenrod;
 }
 
-.renseignement-form form{
-    position: relative;
-    border-radius: 5px;
-}
-
-.renseignement-form form input, form textarea{
+.contact-form{
     color: #fff;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.contact-form form{
+    position: relative;
+}
+
+.contact-form input,
+.form textarea{
+    width: 60%;
+    padding: 13px;
+    border: none;
+    outline: none;
+    background: black;
     font-size: 1.1rem;
     margin-bottom: 0.7rem;
-    border-radius: 25px;
-    margin: 15px;
-    padding: 15px;
+    border-radius: 75px;
 }
 
-.renseignement-form textarea{
+.contact-form textarea{
     resize: none;
-    height: 250px;
+    height: 135px;
 }
 
-.renseignement-form  form.btn{
+.contact-form form .btn{
     display: inline-block;
+    background: goldenrod;
     font-size: 1.5rem;
-    letter-spacing: uppercase;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-weight: 600;
-    border:2px solid transparent;
+    border: 2px solid transparent;
     border-radius: 51px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+    margin-left: 102px;
+    margin-right: 102px;
 }
 
+.contact-form form .btn:hover{
+    border: 2px solid goldenrod;
+    background: transparent;
+    transform: scale(1.1);
+}
