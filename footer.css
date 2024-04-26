@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+    list-style: none;
+}
 body{
     background: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,14 +56,14 @@ footer{
 
 .footer-Informations h3,
  .footer-Avantages h3, 
- .footer-Contacts h3, 
+ .footer-Contacts h3 a, 
  .footer-RéseauxSsociaux h3{
     font-size: 25px;
     padding-bottom: 20px;
 }
 
-.footer-Informations p{
-    padding: 2px 0;
+.footer-Contacts ul li{
+    list-style-type: none;
 }
 
 .liste-services,
@@ -103,6 +106,13 @@ img{
 }
 
 .footer-bottom{
+    padding: top;
     margin-bottom: 25px;
     padding-bottom: 25px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3vw;
 }
