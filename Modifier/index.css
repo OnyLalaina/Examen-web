@@ -1,4 +1,63 @@
 body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: goldenrod;
+    border-bottom: 1px solid #fff;
+}
+
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav  ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background: goldenrod;
+    border-radius: 6px;
+}
+
+section{
+    width:100%;
+    height: 100vh;
+    background-image:url(kéréandroy.png.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -123,13 +182,7 @@ body{
     transition: all .50s ease;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-.header{
+header{
     min-height: 100vh;
     width: 100%;
     background-position: center;
@@ -245,7 +298,7 @@ nav img{
     padding: 10px;
 }
 
-*, ::before, ::after{
+::before, ::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
